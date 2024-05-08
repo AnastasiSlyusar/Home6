@@ -1,20 +1,17 @@
 @import url('reset.css');
 
 .container
-.header {
+ {
   width: 1200px;
   margin: 0 auto;
 }
 
-.container-header-container
 .header-container {
   font-size: 0;
   border-bottom: 1px solid rgba(70, 163, 88, .1);
+  
 }
 
-.header {
-  padding: 30px 0 12px;
-}
 
 .header-logo,
 .header-list,
@@ -73,18 +70,18 @@
 
 .main-banner {
   width: 1200px;
-  height: 450px;
   margin: 0 auto;
+  font-size: 0;
   background-color: #f5f5f5;
   
 
 }
 
 .banner-block {
-width: 550px;
-height: 90%;
-margin: 43px 68px 85px;
-vertical-align: top;
+width: 700px;
+
+padding: 43px 68px 85px;
+vertical-align: middle;
 
 }
 .banner-block, .banner-img {
@@ -99,15 +96,14 @@ vertical-align: top;
 }
 .banner-block-two {
   width: 530px;
-  height: 140px;
+  ;
   color: #3d3d3d;
   font-size: 91px;
   padding: 0px 0px 40px;
 }
 
 .banner-block-three {
-  width: 557px;
-  height: 45px;
+ 
   font-size: 16px;
   color: #727272;
   padding: 0px 0px 44px;
@@ -115,14 +111,25 @@ vertical-align: top;
 
 }
 
-.banner-block-four {
-  width: 140px;
-  height: 40px;
-  
+
+
+
+
+.banner-btn {
+  padding: 11px 26px 9px;
+  background: #46A358;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+
 }
 
 .banner-img {
   width: 500px;
   height: 450px;
+  vertical-align: middle;
 
 }
