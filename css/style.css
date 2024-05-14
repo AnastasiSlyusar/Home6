@@ -196,9 +196,7 @@ vertical-align: middle;
   width: 840px;
   float: right;
 }
-.products {
- 
-}
+
 .products-sort {
   width: 840px;
   height: 23px;
@@ -236,8 +234,6 @@ vertical-align: middle;
 .products-sort-list li.active {
   border-bottom: 2px solid #46A358;
 }
-.products-filter {
-}
 
 .products-filter a {
   color: inherit;
@@ -272,5 +268,6 @@ vertical-align: middle;
   font-size: 18;
   color: #46A358;
   margin-top: 6px;
+  margin-bottom: 70px;
 
 }
